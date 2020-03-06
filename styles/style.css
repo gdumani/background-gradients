@@ -1,0 +1,55 @@
+* {
+  text-decoration: none;
+  /* margin: 0; */
+  list-style: none;
+}
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(7 , 2fr) 3fr;
+  grid-column-gap:1px;
+  padding: 5px;
+  width: 60%;
+  background: linear-gradient(#777, #999 50%,#666 50%, #777);
+  border-radius: 5px;
+  border: 1px solid #555;
+  color: white;
+  justify-self: stretch;
+  align-items: center;
+
+}
+.navbar a {
+  border-width: 1px;
+  border-color: black;
+  padding: 1rem;
+  color:white;
+  justify-self: center;
+  align-self: center;
+}
+.fa-apple {
+  font-size: 2em;
+  justify-self: center;
+  color: lightgray ;
+}
+#search {
+  width: 10em;
+  height: 20px;
+  background: inherit;
+  border: none;
+  color: inherit;
+}
+form {
+  border-top: 2px solid #555;
+  border-bottom: 2px solid #aaa;
+  border-radius: 15px;
+  background: linear-gradient(#666, #999 50%,#777 50%, #999);
+  padding: 2px;  
+}
+main {
+  background-image: url("https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg");
+  background-repeat: no-repeat;
+
+}
+.main-section {
+  display: flex;
+  flex-direction: row;
+}
