@@ -1,7 +1,7 @@
 # Backgrounds and Gradients
 >Example HTML CSS page using background and gradient tools
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/Screenshot_2020-03-07_02-15-06.png)
 
 Additional description about the project and its features.
 
@@ -12,7 +12,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/gdumani/background-gradients/feature/index.html)
 
 
 
