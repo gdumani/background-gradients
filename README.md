@@ -8,7 +8,7 @@ Additional description about the project and its features.
 ## Built With
 
 - CSS/HTML
-- Fexbox, Grid, Fload
+- Flexbox, Grid, Float layout modes
 
 ## Live Demo
 
@@ -17,7 +17,8 @@ Additional description about the project and its features.
 
 
 ### Prerequisites
-
+Modern browser
+Was tested on Chrome 80 and Firefox 73
 
 
 
