@@ -1,12 +1,15 @@
 * {
   text-decoration: none;
-  /* margin: 0; */
+  margin: 0;
   list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 body{
-  width: 1024px;
-  height: 800px;
+  width: 1100px;
+  /* height: 800px; */
+  margin-left: 1%;
 }
 .navbar {
   position: relative;
@@ -54,6 +57,7 @@ form {
 }
 main {
   position: static;
+  margin-top: -40px;
   }
 
 .main-section {
@@ -64,7 +68,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 500px;
+  height: 400px;
   align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding: 10%;
@@ -73,20 +77,28 @@ main {
 .main-section h1, h2, h3 {
   color: white;
   font-weight: 200;
+  padding-bottom: 2rem;
+  text-align: center;
 }
+
 .main-section h1 {
   font-size: 60px;
 }
+
 .main-section h2 {
   font-size: 30px;
 }
+
 .main-section h3 {
   font-size: 25px;
 }
+
 .pictures {
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  justify-content: stretch;
   
-
+}
+.pictures img {
+  object-fit: scale-down;
+  width: 100%;
 }
