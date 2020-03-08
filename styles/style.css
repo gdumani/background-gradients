@@ -74,8 +74,8 @@ main {
 }
 
 .main-section h1,
- h2,
- h3 {
+h2,
+h3 {
   color: white;
   font-weight: 200;
   padding-bottom: 2rem;
@@ -117,7 +117,7 @@ footer {
 footer div {
   display: flex;
   flex-direction: row;
-  column-gap: .5em;
+  column-gap: 0.5em;
 }
 
 footer span {
