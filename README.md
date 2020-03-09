@@ -1,14 +1,19 @@
-# Backgrounds and Gradients
->Example HTML CSS page using background and gradient tools
+# Apple web page clone
+>In this example I created a look-alike web page similar to given example created by Apple.
+
 
 ![screenshot](./images/Screenshot_2020-03-07_02-15-06.png)
 
-Additional description about the project and its features.
+- CSS linear Gradients were used in the Navbar/
+- A picture was used as backgroud.
+- Formating was done by using Grids on the Navbar, the bottom pictures and the footer blocks
+- Flex was used for the main text and the footer elements inside the block
+
 
 ## Built With
 
 - CSS/HTML
-- Flexbox, Grid, Float layout modes
+- Flex, Grid, Float layout modes
 
 ## Live Demo
 
@@ -18,13 +23,14 @@ Additional description about the project and its features.
 
 ### Prerequisites
 Modern browser
-Was tested on Chrome 80 and Firefox 73
+- It was tested on Chrome 80 and Firefox 73
 
 
 
 ## Authors
 
 👤 **Author1**
+Giancarlo Dumani
 
 - Github: [@githubhandle](https://github.com/gdumani
 - Twitter: [@twitterhandle](https://twitter.com/gdumani1
@@ -42,9 +48,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This project was part of Microverse's curriculum in CSS/HTML learning program
+
 
 ## 📝 License
 

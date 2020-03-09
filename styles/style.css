@@ -7,41 +7,47 @@
 
 body {
   width: 1100px;
-  margin-left: 1%;
+  margin: auto;
 }
 
 nav {
   position: relative;
   top: 100px;
-  left: 5%;
+  width: 95%;
+  border-radius: 5px;
+  margin: auto;
+}
+nav ul {
   display: grid;
   grid-template-columns: repeat(7, 2fr) 3fr;
-  grid-column-gap: 1px;
-  width: 90%;
-  background: linear-gradient(#777, #999 50%, #666 50%, #777);
+  place-content: stretch;
   border-radius: 5px;
   border: 1px solid #555;
-  color: white;
-  justify-self: stretch;
-  align-items: center;
+  list-style: none;
+ }
+
+li {
+  padding: 5px 30px 5px 5px;
+  text-align: center;
+  background: linear-gradient(#777, #999 50%, #666 50%, #777);
+  border: 1px solid #555;
+  margin-left: -40px;
 }
 
-nav a {
-  padding: 0.2em;
-  color: white;
-  justify-self: center;
-  align-self: center;
+li,
+li a {
+  color :white;
 }
-
+nav li:hover {
+  background: #555;
+}
 .fa-apple {
-  font-size: 2em;
-  justify-self: center;
-  color: lightgray;
+  color: lightgray; ;
 }
 
 #search {
-  width: 10em;
-  height: 20px;
+  width: 85%;
+  height: 100%;
   background: inherit;
   border: none;
   color: inherit;
@@ -51,8 +57,7 @@ nav a {
   border-top: 2px solid #555;
   border-bottom: 2px solid #aaa;
   border-radius: 15px;
-  background: linear-gradient(#666, #999 50%, #777 50%, #999);
-  padding: 2px;
+  background: linear-gradient(#777, #888 50%, #666 50%, #777);
 }
 
 main {
@@ -82,6 +87,12 @@ h3 {
   text-align: center;
 }
 
+.main-section h1:hover,
+h2:hover, 
+h3:hover {
+  color: #111;
+}
+
 .main-section h1 {
   font-size: 60px;
 }
@@ -103,6 +114,10 @@ h3 {
   object-fit: scale-down;
   width: 100%;
   padding-top: 2px;
+}
+
+.pictures img:hover{
+  object-fit: none;
 }
 
 footer {
@@ -127,6 +142,10 @@ footer span {
 
 footer a {
   color: #1f96d2;
+}
+
+footer a:hover {
+  color: black;
 }
 
 footer a:visited {
